@@ -1,6 +1,6 @@
 package com.spring.javagreenS.service;
 
-public interface StudyService {
+public interface CalendarService {
 	public void getCalendar();
 }
 
