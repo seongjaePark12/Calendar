@@ -23,9 +23,6 @@
   </style>
 </head>
 <body>
-<%@ include file="/WEB-INF/views/include/nav.jsp" %>
-<%@ include file="/WEB-INF/views/include/slide2.jsp" %>
-<p><br/></p>
 <div class="container">
   <div class="col-sm-12" style="margin:30px 0px;font-size:1.4em;text-align:center">
     <button class="btn btn-secondary btn-sm" onclick="location.href='${ctp}/study/calendar?yy=${yy-1}&mm=${mm}'" title="이전년도">◁◁</button>
@@ -84,7 +81,5 @@
     </div>
   </div>
 </div>
-<p><br/></p>
-<%@ include file="/WEB-INF/views/include/footer.jsp" %>
 </body>
 </html>
