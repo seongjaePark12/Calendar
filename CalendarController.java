@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/calendar")
 public class CalendarController {
 	@Autowired
-	StudyService studyService;
+	CalendarService calendarService;
 	
   // 달력내역 가져오기
 	@RequestMapping(value="/calendar", method=RequestMethod.GET)
 	public String calendarGet() {
-		studyService.getCalendar();
-		return "study/calendar/calendar";
+		calendarService.getCalendar();
+		return "calendar/calendar/calendar";
 	}
 
 }
