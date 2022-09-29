@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/study")
-public class StudyController {
+@RequestMapping("/calendar")
+public class CalendarController {
 	@Autowired
 	StudyService studyService;
 	
